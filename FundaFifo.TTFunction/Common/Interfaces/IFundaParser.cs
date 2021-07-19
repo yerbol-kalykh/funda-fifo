@@ -6,6 +6,6 @@ namespace FundaFifo.TTFunction.Common.Interfaces
 {
 	public interface IFundaParser
     {
-        Task<IEnumerable<PropertyDto>> GetPropertiesAsync();
+        Task<IEnumerable<PropertyDto>> GetPropertiesAsync(string filter);
     }
 }
